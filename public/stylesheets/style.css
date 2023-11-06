@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+body {
+  margin: 0;
+  font: 16px "Roboto", "Lucida Grande", Helvetica, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+nav {
+  height: 4rem;
+}
+nav ul {
+  margin: 0 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 2rem;
+  padding: 0.3em 0.6em;
+  color: white;
+}
+
+.container_div {
+  margin: 35px 200px;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+.container_div h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.deny {
+  color: red;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-bottom: -16px;
+  height: 350px;
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.menu p a {
+  text-decoration: none;
+  color: white;
+}
+
+.base {
+  margin: 80px 500px 0;
+}

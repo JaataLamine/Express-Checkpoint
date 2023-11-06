@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+  include ./navbar.pug
+
+  div.container_div
+    h1 This is where you can contact us
+
+    form(action="")
+      div.mb-3
+        label.form-label(for="name") Name : 
+        input.form-control(type="text" name="name" placeholder="Enter your name")
+      div.mb-3
+        label.form-label(for="email") Email : 
+        input.form-control(type="text" name="email" placeholder="Enter your email")
+      div.mb-3
+        label.form-label(for="msg") Message : 
+        textarea.form-control#msg(name="msg", cols="30", rows="5" placeholder="Enter your message")
+      div.mb-3
+        input.btn.btn-info(type="submit" value="Send")
+
+  include ./footer.pug
